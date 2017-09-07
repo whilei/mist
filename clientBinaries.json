@@ -1,20 +1,20 @@
 {
   "clients": {
     "Geth": {
-      "version": "v3.3.0",
+      "version": "v4.0.0",
       "platforms": {
         "linux": {
           "x64": {
             "download": {
-              "url": "https://dl.bintray.com/ethereumproject/GoEthereumClassic/geth-classic-linux-v3.3.0-1-gdd95f05.zip",
+              "url": "http://builds.etcdevteam.com/go-ethereum/v4.0.x/geth-classic-linux-v4.0.0.zip",
               "type": "zip",
-              "sha256": "cc58d32320b4ba4cc420dd6dc7440a66ab7aa6cb58cf714f983a3ff954121057"
+              "sha256": "037801065fcc9ec6618e013564f5aeb335d2fef1995f4e483d8d8dc8e63ff72c"
             },
             "bin": "geth",
             "commands": {
               "sanity": {
                 "args": ["version"],
-                "output": [ "Geth", "3.3.0" ]
+                "output": [ "Geth", "4.0.0" ]
               }
             }
           }
@@ -22,15 +22,15 @@
         "mac": {
           "x64": {
             "download": {
-              "url": "https://dl.bintray.com/ethereumproject/GoEthereumClassic/geth-classic-osx-v3.3.0-1-gdd95f05.zip",
+              "url": "http://builds.etcdevteam.com/go-ethereum/v4.0.x/geth-classic-osx-v4.0.0.zip",
               "type": "zip",
-              "sha256": "abc07a8cc89bbb561251c7421d893b2eed1f1865a14e933144c6a935505299c5"
+              "sha256": "dae0a195cda87452541d58ed433869bededc4ecec65bae2e982cb7832aca0d85"
             },
             "bin": "geth",
             "commands": {
               "sanity": {
                 "args": ["version"],
-                "output": [ "Geth", "3.3.0" ]
+                "output": [ "Geth", "4.0.0" ]
               }
             }
           }
@@ -38,16 +38,16 @@
         "win": {
           "x64": {
             "download": {
-              "url": "https://dl.bintray.com/ethereumproject/GoEthereumClassic/geth-classic-win64-v3.3.0-1-gdd95f055.zip",
+              "url": "http://builds.etcdevteam.com/go-ethereum/v4.0.x/geth-classic-win64-v4.0.0.zip",
               "type": "zip",
-              "sha256": "c7cdbbcbb9edf51507ac35020e3abea5c99154a77569aee0e204c4ad8d6e97ce",
+              "sha256": "332b40571acee2601cc270039fcc6cf3d2ef36da8ce44f6650c639ea29495552",
               "bin": "bin/geth.exe"
             },
             "bin": "geth.exe",
             "commands": {
               "sanity": {
                 "args": ["version"],
-                "output": [ "Geth", "3.3.0" ]
+                "output": [ "Geth", "4.0.0" ]
               }
             }
           }
